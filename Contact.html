@@ -1,37 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Contact</title>
   <meta charset="utf-8">
   <meta name="Stef's Website" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="GlobalStyle.css">
-  <link rel="stylesheet" href="loginstyle.css">
+  <link rel="stylesheet" href="CSS/GlobalStyle.css">
+  <link rel="stylesheet" href="CSS/loginstyle.css">
   <style>
 
   </style>
 </head>
-<body>
-  <div class="navContainer">
-    <nav>
-      <ul>
-        <li><a href="Index.html">Home</a></li>
-        <li><a href="News.html">News</a></li>
-        <li><a style="color:#3498db" class="active" href="Contact.html">Contact</a></li>
-        <li><a href="Profile.html">Profile</a></li>
-        <li><a href="Login.html">Login</a></li>
-      </ul>
-    </nav>
-  </div>
-</body>
-<main>
-  <body>
-    <header>
 
+<body>
+  <div id="container">
+    <!-- Navigation bar -->
+    <header>
+      <nav class="navContainer">
+        <ul>
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="News.html">News</a></li>
+          <li><a style="color:#3498db" class="active" href="Contact.html">Contact</a></li>
+          <li><a href="Profile.html">Profile</a></li>
+          <li><a href="Login.html">Login</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <div class="pos">
+    <!-- Page content -->
+    <div id="content">
       <form class="boxContact">
-        <div class="nbox">
+        <div id="nameInput">
           <div>
             <label for="fname">First Name </label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -41,19 +40,20 @@
             <input type="text" id="lname" name="lastname" placeholder="Your last name..">
           </div>
         </div>
-        <div class="mail">
+        <div>
           <label for="Email">E-mail</label>
           <input type="email" id="imail" name="e-mail" placeholder="Your e-mail address..">
         </div>
-        <label class="boxContact1" for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
         <input type="submit" value="Send" id="isend">
       </form>
     </div>
-  </body>
-</main>
-<footer>
-  <p class="copyright">© Website 2021</p>
-</footer>
+
+    <!-- footer -->
+    <footer>
+      <p class="copyright">© Website 2021</p>
+    </footer>
+</body>
+
 </html>

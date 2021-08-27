@@ -5,6 +5,25 @@ body{
   background: #34495e;
 }
 
+.hero-image {
+  background-image: url("../Images/fakurian-design--OZvOe1x4so-unsplash.jpg");
+  background-color: #cccccc;
+  height: 1440px;
+  background-position: center top -300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
 .testlogo{
   border-radius: 50%;
 }

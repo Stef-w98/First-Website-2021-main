@@ -22,26 +22,17 @@ input[type=file] {
 }
 
 /* General Contact style */
-.pos{
-  margin-left: 20px;
-  float: left;
-  display: flex;
-}
 
 .boxContact{
   width: auto;
   padding: 40px;
-  position: absolute;
-  top: 30%;
-  left: 20%;
-  transform: translate(-50%,-50%);
   background: #191919;
   text-align: center;
   flex-direction: column;
   display: flex;
   justify-content: center;
+  align-items: center;
   color: white;
-  margin-top: 120px;
 }
 
 .boxContact h1{
@@ -80,16 +71,6 @@ input[type=file] {
   border-radius: 24px;
   transition: 0.25s;
   align-items: center;
-
-}
-
-.boxContact1{
-  width: 450px;
-}
-
-.nbox{
-  display: flex;
-  text-align: center;
 }
 
 .boxContact input[type = "text"]:focus,.boxContact input[type = "password"]:focus,.boxContact input[type = "date"]:focus{
@@ -115,8 +96,18 @@ input[type=file] {
   transition: 0.25s;
   cursor: pointer;
 }
+
 .boxContact input[type = "submit"]:hover{
   background: #2ecc71;
+}
+
+#subject{
+   height:200px;
+   width: 100%;
+}
+
+#nameInput{
+  display: flex;
 }
 
 /* General Login and signup style */
