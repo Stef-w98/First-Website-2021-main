@@ -1,0 +1,227 @@
+.custom-file-upload {
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 25px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+
+}
+.custom-file-upload:hover{
+  background: #2ecc71;
+}
+
+input[type=file] {
+  display: none;
+}
+
+/* General Contact style */
+.pos{
+  margin-left: 20px;
+  float: left;
+  display: flex;
+}
+
+.boxContact{
+  width: auto;
+  padding: 40px;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 120px;
+}
+
+.boxContact h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.boxContact input[type="text"],.boxContact input[type="password"],.boxContact input[type="date"]{
+  border:0;
+  background: none;
+  display: flex ;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 15px 40px 20px;
+  margin-left: 20px;
+  width: 160px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.boxContact input[type="email"]{
+  border:0;
+  background: none;
+  display: flex ;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 15px 40px 20px;
+  margin-left: center;
+  width: 320px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  align-items: center;
+
+}
+
+.boxContact1{
+  width: 450px;
+}
+
+.nbox{
+  display: flex;
+  text-align: center;
+}
+
+.boxContact input[type = "text"]:focus,.boxContact input[type = "password"]:focus,.boxContact input[type = "date"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+
+.boxContact input[type = "email"]:focus{
+  width: 420px;
+  border-color: #2ecc71;
+}
+.boxContact input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.boxContact input[type = "submit"]:hover{
+  background: #2ecc71;
+}
+
+/* General Login and signup style */
+
+.box{
+  min-width: 300px;
+  padding: 40px;
+  background: #191919;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  color: white;
+}
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.box input[type = "text"],.box input[type = "password"],.box input[type = "email"],.box input[type = "date"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus,.box input[type = "email"]:focus,.box input[type = "date"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #2ecc71;
+}
+
+/* General Profile and signup style */
+
+.boxp{
+  min-width: 300px;
+  padding: 40px;
+  background: #191919;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  color: white;
+}
+
+.boxp h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.boxp input[type = "text"],.boxp input[type = "password"],.boxp input[type = "email"],.boxp input[type = "date"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.boxp input[type = "text"]:focus,.boxp input[type = "password"]:focus,.boxp input[type = "email"]:focus,.boxp input[type = "date"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+.boxp input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.boxp input[type = "submit"]:hover{
+  background: #2ecc71;
+}

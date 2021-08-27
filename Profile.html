@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Profile</title>
+  <meta charset="utf-8">
+  <meta name="Stef's Website" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="GlobalStyle.css">
+  <link rel="stylesheet" href="loginstyle.css">
+  <style>
+  img {
+    border-radius: 50%;
+  }
+  </style>
+</head>
+<body>
+  <div id = "container">
+    <!-- Navigation bar -->
+    <header>
+      <nav class="navContainer">
+        <ul>
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="News.html">News</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a style="color:#3498db" class="active" href="Profile.html">Profile</a></li>
+          <li><a href="Login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <div id = "content">
+      <!-- Profile picture -->
+      <img src="blank-profile.png" alt="Avatar" width="150px">
+      <label for="file-upload" class="custom-file-upload">Upload Picture</label>
+      <input id="file-upload" type="file"/>
+
+      <!-- Profile form -->
+      <form class="boxp" action="connection.php" method="post">
+        <label for="Uname">User Name: </label>
+        <input type="text" id="username" name="username" placeholder="Your user name..">
+
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="Email">E-mail:</label>
+        <input type="email" id="iemail" name="e-mail" placeholder="Your e-mail address..">
+
+        <label for="Pword">Password:</label>
+        <input type="Password" id="password" name="password" placeholder="Your Password..">
+
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+
+        <input type="submit" value="Submit" id="isubmit">
+      </form>
+    </div>
+
+    <footer>
+      <p class="copyright">© Website 2021</p>
+    </footer>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
